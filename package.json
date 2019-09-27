@@ -66,10 +66,11 @@
     "test:c": "jest --env=jsdom --coverage -c ./jest.config.js",
     "eject": "react-scripts eject",
     "test:tsc": "tsc -p ./tsconfig.test.json -w",
-    "lint": "npm run format && eslint './src/**/*.{ts,tsx}'",
-    "lint:q": "npm run format && eslint --quiet './src/**/*.{ts,tsx}'",
-    "lint:fix": "npm run format && eslint --fix './src/**/*.{ts,tsx}'",
-    "format": "prettier --write \"src/**/*.{ts*,js}\""
+    "lint": "yarn format && eslint './src/**/*.{ts,tsx}'",
+    "lint:q": "yarn format && eslint --quiet './src/**/*.{ts,tsx}'",
+    "lint:fix": "yarn format && eslint --fix './src/**/*.{ts,tsx}'",
+    "format": "prettier --write \"src/**/*.{ts*,js}\"",
+    "fc": "yarn lint && yarn test:c"
   },
   "build-ts": {
     "patterns": [
