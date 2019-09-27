@@ -1,4 +1,4 @@
-#Base app for boilerplating react+typescript app with eslint+typescript linting
+# Base app for boilerplating react+typescript app with eslint+typescript linting
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
