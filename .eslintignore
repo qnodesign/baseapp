@@ -1,0 +1,4 @@
+**/*.d.ts
+**/__mocks__/**
+src/serviceWorker.js
+jest.config.js

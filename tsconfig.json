@@ -1,0 +1,48 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "esnext",
+    "target": "es5",
+    "baseUrl": "src",
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "esnext",
+      "esnext.asynciterable"
+    ],
+    "esModuleInterop": true,
+    "allowJs": false,
+    "downlevelIteration": true,
+    "preserveConstEnums": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "noEmit": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": false
+  },
+  "include": [
+    "src", "setupTests.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/types"
+  ]
+}
